@@ -29,7 +29,7 @@ python3 train.py
 ```ruby
 mlflow ui
 ```
-* Create conda.yaml exporting depencies into it or you can go to mlflow ui and copy paste same conda.yaml file.
+* Create [conda.yaml](https://github.com/ShubhPatil95/MLFLOW_Tutorial/blob/main/Mlflow_Project_Package/conda.yaml) exporting depencies into it or you can go to mlflow ui and copy paste same conda.yaml file.
 ```ruby
 conda env export > conda.yaml
 ```
