@@ -1,6 +1,6 @@
 # MLFLOW_Tutorial
 
-<details><summary> <h2> Mlflow Project Package </h2> </summary>
+<details><summary> <h2> Mlflow_Project_Package </h2> </summary>
 <p>
 
 * Create a folder Mlflow_Project_Package
