@@ -50,5 +50,15 @@ just share below four file and ask to run command **mlflow run .**
   3. conda.yaml 
   4. MLproject 
 ````
+* How to run project from github? (make sure your code in direct repository not under repo>folder or subfolder like [Mlflow_Project_Package](https://github.com/ShubhPatil95/Mlflow_Project_Package)). Run below command.
+```ruby
+ # mlflow run git@github.com:Username/Repo_Name --version branch_name
+   mlflow run git@github.com:ShubhPatil95/Mlflow_Project_Package --version main
+```
+ * mlflow run using python API, just create file [mlflow_run_test.py](https://github.com/ShubhPatil95/Mlflow_Project_Package/blob/main/mlflow_run_test.py)
+```ruby
+ python3 mlflow_run_test.py
+```
+  
 </p>
 </details>
