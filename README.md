@@ -42,15 +42,15 @@ nano MLproject
 mlflow run . -P intercept=False
 mlflow run . -P intercept=False --no-conda
 ```
-* How to share your project??
+* How to share your project??<br>
+just share below four file and ask to run command <strong>mlflow run .</strong>
 ```ruby
-just share below four file and ask to run command **mlflow run .**
   1. requirements.txt
   2. train.py
   3. conda.yaml 
   4. MLproject 
 ````
-* How to run project from github? (make sure your code in direct repository not under repo>folder or subfolder like [Mlflow_Project_Package](https://github.com/ShubhPatil95/Mlflow_Project_Package)). Run below command.
+* How to run project from github? <br> (make sure code on github is directly inside repo not under any folder of repo) Run below command.
 ```ruby
  # mlflow run git@github.com:Username/Repo_Name --version branch_name
    mlflow run git@github.com:ShubhPatil95/Mlflow_Project_Package --version main
