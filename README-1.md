@@ -51,8 +51,10 @@ if __name__ == "__main__":
     mlflow.log_param("Param-2", 11)
     mlflow.log_metric("Metrics-1",12)
     mlflow.log_metric("Metrics-2",20.5)
-    
-    
+
+    with open("test.txt", "w") as f:
+        f.write("hello world!")
+    mlflow.log_artifact("test.txt")
 ```
 Now run below line in next cell of train.ipynb and you will get URL UI like http://127.0.0.1:5000. Go to URL and you will see output as below.
 ```ruby
