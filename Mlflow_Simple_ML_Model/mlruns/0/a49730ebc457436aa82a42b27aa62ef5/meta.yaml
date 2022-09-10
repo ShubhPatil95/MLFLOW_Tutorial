@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shubham/poetry-check/test/MLFLOW_Tutorial/Mlflow_Simple_ML_Model/mlruns/0/a49730ebc457436aa82a42b27aa62ef5/artifacts
+end_time: 1662734891269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a49730ebc457436aa82a42b27aa62ef5
+run_uuid: a49730ebc457436aa82a42b27aa62ef5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1662734889753
+status: 3
+tags: []
+user_id: shubham
