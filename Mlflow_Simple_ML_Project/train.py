@@ -9,7 +9,7 @@ y=np.array([11,22,33,55,44,66])
 
 alphas=[0.5,1,1.5]
 l1_ratios=[0.5,1]
-
+i=0
 for alpha in alphas:
     for l1_ratio in l1_ratios:
         with mlflow.start_run():
@@ -33,6 +33,8 @@ for alpha in alphas:
 
             # mlflow model logging 
             mlflow.sklearn.log_model(model, "model")
+            print(f"[INFO] Run Number = {i} is exucuted")
+            i=i+1
 
 
 
