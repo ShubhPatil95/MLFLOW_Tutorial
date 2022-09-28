@@ -19,11 +19,11 @@ nano train.py
 ```ruby
 with mlflow.start_run():   # The parameters,metrics and artifacts under indentation of this line will be recorded.
 
-mlflow.log_param("param_name",param_value)  # It will log the paramters
+    mlflow.log_param("param_name",param_value)  # It will log the paramters
 
-mlflow.log_metric("metric_name", metric_value)  # IT will log the metrics
+    mlflow.log_metric("metric_name", metric_value)  # IT will log the metrics
   
-mlflow.sklearn.log_model(model, "model_name")    # It will record model created by sklearn
+    mlflow.sklearn.log_model(model, "model_name")    # It will record model created by sklearn
 ```
 
 #### Step4: Lets run train.py and wait till successful execution. Then you will notice that new folder under mlruns will be created.
