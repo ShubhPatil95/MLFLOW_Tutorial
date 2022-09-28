@@ -55,9 +55,10 @@ mlflow ui
 <details><summary> <h2> Mlflow_Project_Package </h2> </summary>
 <p>
 
-#### Step1: Create a folder Mlflow_Project_Package
+#### Step1: Create a folder Mlflow_Project_Package and move inside of it
 ```ruby
 mkdir Mlflow_Project_Package
+cd Mlflow_Project_Package
 ```
 #### Step2: Create a new conda env
 ```ruby
