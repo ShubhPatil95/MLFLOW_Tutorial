@@ -68,7 +68,7 @@ conda create -n mlflow_env python=3.7 -y
 ```ruby
 nano train.py
 ```
-#### Step4: Create requirements.txt and paste code from [requirements.txt](https://github.com/ShubhPatil95/MLFLOW_Tutorial/blob/main/Mlflow_Project_Package/requirements.txt) and second command
+#### Step4: Create requirements.txt and paste code from [requirements.txt](https://github.com/ShubhPatil95/MLFLOW_Tutorial/blob/main/Mlflow_Project_Package/requirements.txt) and then run second command
 ```ruby
 nano requirements.txt
 pip install -r requirements.txt
