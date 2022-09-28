@@ -109,9 +109,9 @@ just share below four file and ask to run command <strong>mlflow run .</strong>
  # mlflow run git@github.com:Username/Repo_Name --version branch_name
    mlflow run git@github.com:ShubhPatil95/Mlflow_Project_Package --version main -P intercept=True
 ```
- #### Step12: mlflow run using python API, just create file [mlflow_run_test.py](https://github.com/ShubhPatil95/Mlflow_Project_Package/blob/main/mlflow_run_test.py)
+ #### Step12: mlflow run using python API, just create file [MLFlow_Project_API.py](https://github.com/ShubhPatil95/Mlflow_Project_Package/blob/main/MLFlow_Project_API.py)
 ```ruby
- python3 mlflow_run_test.py
+ python3 MLFlow_Project_API.py
 ```
   
 </p>
