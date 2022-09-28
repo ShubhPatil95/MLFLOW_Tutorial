@@ -8,7 +8,7 @@ PLease refer below sections and follow the step to run and learn.
 
 #### Step1: Create a folder Mlflow_Project_Package and move inside the folder
 ```ruby
-Mlflow_Simple_ML_Project
+mkdir Mlflow_Simple_ML_Project
 cd Mlflow_Simple_ML_Project
 ```
 #### Step2: Create a train.py by copying code from here [train.py](https://github.com/ShubhPatil95/MLFLOW_Tutorial/blob/main/Mlflow_Simple_ML_Project/train.py)
