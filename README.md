@@ -26,18 +26,24 @@ with mlflow.start_run():   # The parameters,metrics and artifacts under indentat
     mlflow.sklearn.log_model(model, "model_name")    # It will record model created by sklearn
 ```
 
-#### Step4: Lets run train.py and wait till successful execution. Then you will notice that new folder under mlruns will be created.
+#### Step4: Lets run train.py and wait till successful execution.
   
 ```ruby
-ls  # It will list the file and folder inside of Mlflow_Simple_ML_Project
+python3 train.py
+```   
+    
+#### Step5: You will notice that new folder under mlruns will be created.
+  
+```ruby
+ls  # this command will show mlruns folder is created
 ```
   
-#### Step5: Now its time to go to mlflow UI to see systematically presented parameters, metrics and artificats. Then it will generated URL for UI: http://127.0.0.1:5000.
+#### Step6: Now its time to go to mlflow UI to see systematically presented parameters, metrics and artificats. Then it will generated URL for UI: http://127.0.0.1:5000.
 ```ruby
 mlflow ui
 ```
   
-#### Step6: On UI you will see all the metrics and logs we have recorded through our code. Explore this UI and enjoy it.
+#### Step7: On UI you will see all the metrics and logs we have recorded through our code. Explore this UI and enjoy it.
   
 </p>
 </details>
