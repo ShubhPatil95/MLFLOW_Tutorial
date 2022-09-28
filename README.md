@@ -107,7 +107,7 @@ just share below four file and ask to run command <strong>mlflow run .</strong>
 #### Step11: How to run project from github? <br> (make sure code on github is directly inside repo not under any folder of repo) Run below command.
 ```ruby
  # mlflow run git@github.com:Username/Repo_Name --version branch_name
-   mlflow run git@github.com:ShubhPatil95/Mlflow_Project_Package --version main
+   mlflow run git@github.com:ShubhPatil95/Mlflow_Project_Package --version main -P intercept=True
 ```
  #### Step12: mlflow run using python API, just create file [mlflow_run_test.py](https://github.com/ShubhPatil95/Mlflow_Project_Package/blob/main/mlflow_run_test.py)
 ```ruby
